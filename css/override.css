@@ -12,6 +12,25 @@ body {
     margin-right: 15px;
 }
 
+.button-white {
+    color: #000;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    float: left; 
+    clear: left;
+}
+
+.button-blue-navy {
+    color: #fff;
+    background-color: #0c4c5a;
+    display: block;
+    margin-bottom: 10px;
+    float: left; 
+    clear: left;
+
+}
+
 .button-blue-dark {
     color: #fff;
     background-color: #137991;
