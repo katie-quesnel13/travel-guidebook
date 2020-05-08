@@ -4,10 +4,10 @@
   "description": "new skeleton website for the travel guidebook",
   "main": "index.js",
   "devDependencies": {},
-  "scripts": {
+   "scripts": {
     "sitemap": "http-server ./ --port 8081",
     "public": "http-server public --port 8080",
-    "pa11y-ci:sitemap": "wait-on http-get://localhost:8080 && wait-on http-get://localhost:8081/sitemap.xml && pa11y-ci --sitemap http://localhost:8080",
+    "pa11y-ci:sitemap": "wait-on http-get://localhost:8080 && wait-on http-get://localhost:8081/sitemap.xml && pa11y-ci --sitemap http://localhost:8081/sitemap.xml",
     "a11y-check": "npm-run-all -p start sitemap pa11y-ci:sitemap"
   },
   "repository": {
